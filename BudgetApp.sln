@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp", "BudgetApp\BudgetApp.csproj", "{20ADEA72-BD59-4121-88FF-4C2E9AA9B050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20ADEA72-BD59-4121-88FF-4C2E9AA9B050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20ADEA72-BD59-4121-88FF-4C2E9AA9B050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20ADEA72-BD59-4121-88FF-4C2E9AA9B050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20ADEA72-BD59-4121-88FF-4C2E9AA9B050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5BA7EB5-C422-488B-A5BE-5BDB01E5E32D}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 80
+		$2.TabWidth = 2
+		$2.TabsToSpaces = True
+		$2.IndentWidth = 2
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = text/x-json
+	EndGlobalSection
+EndGlobal
