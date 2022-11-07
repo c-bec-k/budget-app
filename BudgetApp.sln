@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp", "BudgetApp\Budg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp.SqlDbServices", "BudgetApp.SqlDbServices\BudgetApp.SqlDbServices.csproj", "{E3114C02-8864-4EE9-81EE-692EA4183964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp.Api", "BudgetApp.Api\BudgetApp.Api.csproj", "{DE32A226-8855-4EE6-B550-7105A0CA63BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E3114C02-8864-4EE9-81EE-692EA4183964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3114C02-8864-4EE9-81EE-692EA4183964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3114C02-8864-4EE9-81EE-692EA4183964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE32A226-8855-4EE6-B550-7105A0CA63BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE32A226-8855-4EE6-B550-7105A0CA63BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE32A226-8855-4EE6-B550-7105A0CA63BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE32A226-8855-4EE6-B550-7105A0CA63BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +49,6 @@ Global
 		$0.TextStylePolicy = $4
 		$4.inheritsSet = null
 		$4.scope = text/x-json
+		BaseDirectory = .
 	EndGlobalSection
 EndGlobal
