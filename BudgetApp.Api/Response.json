@@ -1,0 +1,18 @@
+﻿{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
+  "value": [
+    {
+      "displayName": "Christopher Ruthenbeck",
+      "surname": "Ruthenbeck",
+      "givenName": "Christopher",
+      "id": "1c34c2c41d1a61f8",
+      "userPrincipalName": "cruthenbeck@gmail.com",
+      "businessPhones": [],
+      "jobTitle": null,
+      "mail": null,
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": null
+    }
+  ]
+}

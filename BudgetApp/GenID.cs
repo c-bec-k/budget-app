@@ -17,7 +17,7 @@ public class GenID
   public GenID()
   {
     Epoch = new DateTime(2022, 02, 16);
-    rand = new byte[8];
+    rand = new byte[4];
     rng = RandomNumberGenerator.Create();
   }
 
@@ -27,7 +27,7 @@ public class GenID
     ulong ts = (ulong)Math.Floor(timestamp.TotalMilliseconds * .01);
     Console.WriteLine(ts);
     rng.GetBytes(rand);
-    ulong randoGen = (ulong)BitConverter.ToUInt64(rand);
+    ulong randoGen = (ulong)BitConverter.ToUInt32(rand);
     Console.WriteLine(randoGen);
     return (ts << 29) | (randoGen & 536870911);
   }

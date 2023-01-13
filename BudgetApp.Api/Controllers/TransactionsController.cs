@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BudgetApp;
+using System.Security.Claims;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,7 +13,6 @@ namespace BudgetApp.Api.Controllers;
 [Route("api/[controller]")]
 public class TransactionsController : Controller
 {
-  private readonly GenID ID = new();
   // GET: api/Transactions
   [HttpGet]
   public static IEnumerable<string> Get()
@@ -43,9 +43,8 @@ public class TransactionsController : Controller
 
     Transaction txn = new()
     {
-      TransactionID = ID.Next(),
       AmountCents = model.AmountCents,
-      Category = model.Category,
+      CategoryId = model.CategoryId,
       Day = model.Day,
       UserId = model.UserId,
       Note = model.Note

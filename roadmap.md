@@ -1,0 +1,24 @@
+# To Do List
+
+- [X] User Auth Controller
+  - [X] Get MS user info
+	- [X] Verify
+	- [X] Register
+	- [X] Login
+	- [X] Authenticate
+	- [X] Get user
+- [ ] Transactions Controller
+	- [ ] Create
+	- [ ] Read
+	- [ ] Update
+	- [ ] Delete
+- [ ] Budget Controller
+  - [ ] Create
+	- [ ] Read
+	- [ ] Update
+	- [ ] Delete
+- [ ] Monthly Controller
+  - [ ] Create
+	- [ ] Read
+	- [ ] Update
+	- [ ] Delete	

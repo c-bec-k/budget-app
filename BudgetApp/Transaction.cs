@@ -1,21 +1,23 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BudgetApp;
 
 public class Transaction
 {
-  [Key, Required]
-  public ulong TransactionID { get; set; }
-  [Required]
+  [Key]
+  [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+  public int TransactionId { get; set; }
   public int AmountCents { get; set; }
-  [Required]
-  public string Category { get; set; }
+
+  public int CategoryId { get; set; }
+  public virtual BudgetCategory Category { get; set; }
   public string Note { get; set; }
-  [Required]
   public DateTime Day { get; set; }
-  [Required]
+
   public Guid UserId { get; set; }
+  public virtual User User { get; set; }
 
   public Transaction() { }
 }
